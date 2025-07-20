@@ -11,8 +11,8 @@ function App() {
   const HomeSection = () => (
     <section id="home" className="section">
       <div className="hero">
-        <h1>Welcome to SAMPLE TEXT</h1>
-        <p>Your premier destination for professional golf services</p>
+        <h1>Welcome to Panepucci Repair and Services</h1>
+        <p>Your premier destination for professional diesel and automotive services</p>
         <div className="hero-buttons">
           <button onClick={() => setActiveSection('services')}>Our Services</button>
           <button onClick={() => setActiveSection('contact')}>Get Started</button>
@@ -25,7 +25,7 @@ function App() {
   const AboutSection = () => (
     <section id="about" className="section">
       <div className="container">
-        <h2>About Eaton Golf Company</h2>
+        <h2>About Panepucci Repair & Services</h2>
         <p>
           Founded with a passion for golf excellence, Eaton Golf Company has been serving 
           golfers of all skill levels for years. Our team of experienced professionals 
