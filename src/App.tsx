@@ -4,6 +4,8 @@ import { useState } from 'react'
 import NavBar from './Components/NavBar'
 import Contact from './Components/Contact'
 
+import panepucciSR from '../public/panepucciSR.png'
+
 function App() {
   const [activeSection, setActiveSection] = useState('home')
 
@@ -11,7 +13,8 @@ function App() {
   const HomeSection = () => (
     <section id="home" className="section">
       <div className="hero">
-        <h1>Welcome to Panepucci Repair and Services</h1>
+        <img className="mainLogo" src={panepucciSR} alt="Panepucci Repair and Services Logo" />
+        {/* <h1>Welcome to Panepucci Repair and Services</h1> */}
         <p>Your premier destination for professional diesel and automotive services</p>
         <div className="hero-buttons">
           <button onClick={() => setActiveSection('services')}>Our Services</button>

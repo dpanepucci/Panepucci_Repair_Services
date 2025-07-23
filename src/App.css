@@ -23,13 +23,22 @@
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background: linear-gradient(180deg, black 30%, white 100%); /* BACKGROUND */
+  background: linear-gradient(180deg, black 45%, white 100%); /* BACKGROUND */
   color: white;
   min-height: calc(100vh - 70px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* MAIN LOGO ON FRONT OF PAGE */
+.mainLogo {
+  width: 450px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 100px;
+  margin-top: -300px;
 }
 
 /* CENTER TEXT ON PAGE */
