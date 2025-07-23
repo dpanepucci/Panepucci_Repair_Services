@@ -62,20 +62,20 @@ function Contact() {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Get in Touch</h3>
-            <p>Ready to improve your golf game? Contact us today to schedule your lesson or learn more about our services.</p>
+            <p>Submit a request for services, or call for immediate help.</p>
             
             <div className="contact-details">
               <div className="contact-item">
                 <h4>Phone</h4>
-                <p>(555) 123-4567</p>
+                <p>(740) 391-4137</p>
               </div>
               <div className="contact-item">
                 <h4>Email</h4>
-                <p>info@eatongolf.com</p>
+                <p>PanepucciRepair@gmail.com</p>
               </div>
               <div className="contact-item">
                 <h4>Address</h4>
-                <p>123 Golf Course Lane<br />Golf City, GC 12345</p>
+                <p>66100 Airport Rd.<br />St.Clairsville OH, 43950</p>
               </div>
               <div className="contact-item">
                 <h4>Hours</h4>
@@ -133,7 +133,7 @@ function Contact() {
                   onChange={handleChange}
                 />
               </div>
-              <div className="form-group">
+              {/* <div className="form-group">
                 <label htmlFor="service">Interested Service</label>
                 <select 
                   id="service" 
@@ -147,7 +147,7 @@ function Contact() {
                   <option value="club-fitting">Club Fitting</option>
                   <option value="other">Other</option>
                 </select>
-              </div>
+              </div> */}
               <div className="form-group">
                 <label htmlFor="message">Message</label>
                 <textarea 
